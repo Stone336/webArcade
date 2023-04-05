@@ -84,5 +84,30 @@ nav {
     width: 100%;
     min-height: 100vh;
     position: relative;
+    display: inline-block;
+    z-index: -1;
+}
+.banner .container {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+    padding-top: 15%;
+}
+.banner .banner-right {
+    width: 534px;
+    height: 690px;
+}
+.banner .banner-right img {
+    width: 534px;
+    height: 690px;
+    border-radius: 5%;
+    z-index: 100;
+}
+.banner .banner-left {
+    color: #f0f0f0;
+    background-color: rgba(246, 122, 21, 0.5);
+    width: 55%;
+    padding: 38px;
+    border-radius: 5%;
 }
