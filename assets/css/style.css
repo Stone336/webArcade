@@ -88,9 +88,8 @@ nav {
     z-index: -1;
 }
 .banner .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     padding-top: 15%;
 }
@@ -107,7 +106,6 @@ nav {
 .banner .banner-left {
     color: #f0f0f0;
     background-color: rgba(246, 122, 21, 0.5);
-    width: 55%;
-    padding: 38px;
+    padding: 40px;
     border-radius: 5%;
 }
